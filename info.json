@@ -1,30 +1,45 @@
 {
-    "gameVersion": "1.0.0",
-    "changelog": [
-      {
-        "tag": "feature",
-        "title": "New Character Selection",
-        "description": "Added a new character selection screen."
-      },
-      {
-        "tag": "bug fix",
-        "title": "Inventory Crash",
-        "description": "Fixed a crash that occurred when opening the inventory."
-      },
-      {
-        "tag": "balance update",
-        "title": "Fireball Damage",
-        "description": "Increased the damage of the fireball spell by 20%."
-      },
-      {
-        "tag": "ui improvement",
-        "title": "Main Menu Redesign",
-        "description": "Redesigned the main menu for a more modern look."
-      },
-      {
-        "tag": "bug fix",
-        "title": "Quest Completion",
-        "description": "Fixed an issue where quest completion was not triggering properly."
-      }
-    ]
-}  
+  "gameVersion": "1.0.0",
+  "changelog": [
+    {
+      "version": "1.0.0",
+      "changes": [
+        {
+          "tag": "feature",
+          "title": "New Character Selection",
+          "description": "Added a new character selection screen."
+        },
+        {
+          "tag": "bug fix",
+          "title": "Inventory Crash",
+          "description": "Fixed a crash that occurred when opening the inventory."
+        },
+        {
+          "tag": "balance update",
+          "title": "Fireball Damage",
+          "description": "Increased the damage of the fireball spell by 20%."
+        },
+        {
+          "tag": "ui improvement",
+          "title": "Main Menu Redesign",
+          "description": "Redesigned the main menu for a more modern look."
+        }
+      ]
+    },
+    {
+      "version": "1.1.0",
+      "changes": [
+        {
+          "tag": "feature",
+          "title": "New Level",
+          "description": "Added an exciting new level with challenging obstacles."
+        },
+        {
+          "tag": "bug fix",
+          "title": "Save Data",
+          "description": "Fixed an issue where save data was not being properly stored."
+        }
+      ]
+    }
+  ]
+}
