@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KatrGames</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header section -->
+  <header class="header">
+    <nav class="navbar">
+      <div class="container">
+        <a href="#" class="logo">KatrGames</a>
+        <ul class="menu">
+          <li><a href="#about">About</a></li>
+          <li><a href="#games">Games</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="hero">
+      <h1>Welcome to KatrGames</h1>
+      <p>A passionate game studio dedicated to creating captivating gaming experiences.</p>
+      <a href="#games" class="btn">Explore Games</a>
+    </div>
+  </header>
+
+  <!-- About section -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2>About Us</h2>
+      <p>Welcome to KatrGames, where we craft games that bring joy and excitement to players worldwide. Our talented team of developers and artists work tirelessly to create captivating gaming experiences.</p>
+    </div>
+  </section>
+
+  <!-- Games section -->
+  <section id="games" class="section">
+    <div class="container">
+      <h2>Our Games</h2>
+      <div class="game">
+        <img src="tiny-chaos-screenshot.png" alt="Tiny Chaos Screenshot">
+        <div class="game-info">
+          <h3>Tiny Chaos</h3>
+          <p>Dive into the whimsical world of Tiny Chaos, a delightful adventure filled with challenging puzzles and breathtaking landscapes.</p>
+          <a href="#tiny-chaos" class="btn">Learn More</a>
+        </div>
+      </div>
+      <!-- Add more games here -->
+    </div>
+  </section>
+
+  <!-- Contact section -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>If you have any questions, partnership inquiries, or just want to say hello, feel free to contact us using the form below.</p>
+      <form action="contact.php" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer section -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2023 KatrGames. All rights reserved.</p>
+      <ul class="social-icons">
+        <li><a href="#" class="fa fa-twitter"></a></li>
+        <li><a href="#" class="fa fa-instagram"></a></li>
+        <li><a href="#" class="fa fa-facebook"></a></li>
+      </ul>
+    </div>
+  </footer>
+
+</body>
+</html>
