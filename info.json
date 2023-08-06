@@ -1,43 +1,48 @@
 {
-  "gameVersion": "1.0.0",
+  "gameVersion": "0.5.6",
   "changelog": [
     {
-      "version": "1.0.0",
+      "version": "0.5.6",
       "changes": [
         {
           "tag": "feature",
-          "title": "New Character Selection",
-          "description": "Added a new character selection screen."
+          "title": "Update Notes Menu",
+          "description": "You can now view our game changes and updates from this menu, and will be notified when a new version is available."
+        },
+        {
+          "tag": "feature",
+          "title": "Shop Refund System",
+          "description": "You can now refund the gold you have spent on the shop."
         },
         {
           "tag": "bug fix",
-          "title": "Inventory Crash",
-          "description": "Fixed a crash that occurred when opening the inventory."
+          "title": "Leaderboard Error",
+          "description": "We've fixed an error posting highscore data to the leaderboard that caused the abilities from the previous game that were retrieved to be listed when you pressed play again.<br>And we've also fixed the leaderboard reload button, which becomes disabled when you return to the main menu after playing."
         },
         {
-          "tag": "balance update",
-          "title": "Fireball Damage",
-          "description": "Increased the damage of the fireball spell by 20%."
-        },
-        {
-          "tag": "ui improvement",
-          "title": "Main Menu Redesign",
-          "description": "Redesigned the main menu for a more modern look."
+          "tag": "bug fix",
+          "title": "Saving Data",
+          "description": "We have improved the game's saving system, which should prevent certain data from being deleted when players upgrade the game to a new version."
         }
       ]
     },
     {
-      "version": "1.1.0",
+      "version": "0.5.5",
       "changes": [
         {
           "tag": "feature",
-          "title": "New Level",
-          "description": "Added an exciting new level with challenging obstacles."
+          "title": "Leaderboard",
+          "description": "In this version, we try to implement a Leaderboard system.<br>With the leaderboard, everyone can look at what the others are building to achieve a high score."
+        },
+        {
+          "tag": "feature",
+          "title": "Nickname System",
+          "description": "The nickname is used for the highscore leaderboard.<br>Maybe in the future it will be based on the username from Steam."
         },
         {
           "tag": "bug fix",
-          "title": "Save Data",
-          "description": "Fixed an issue where save data was not being properly stored."
+          "title": "Protobarrier Bug",
+          "description": "Fixed the issue of the knight's abilities not being able to turn on again when taking unique abilities that reduce max hp capacity."
         }
       ]
     }
