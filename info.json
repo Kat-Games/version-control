@@ -1,6 +1,31 @@
 {
-  "gameVersion": "0.5.6",
+  "gameVersion": "0.6.3",
   "changelog": [
+    {
+      "version": "0.6.0",
+      "changes": [
+        {
+          "tag": "new character",
+          "title": "Miner",
+          "description": "New characters for the upcoming new stages."
+        },
+        {
+          "tag": "feature",
+          "title": "New Special Upgrade",
+          "description": "We added 30+ new special upgrades, and also adjusted old special upgrades."
+        },
+        {
+          "tag": "feature",
+          "title": "New Weapon Evo System",
+          "description": "we added a new system where each character's weapon can evolve and make the character stronger with new abilities."
+        },
+        {
+          "tag": "feature",
+          "title": "New Rarity and Legendary Chest",
+          "description": "There is now a new upgrade with a mythic level, and it is only obtained from the legendary chest with a small chance of miniboss and boss."
+        }
+      ]
+    },
     {
       "version": "0.5.6",
       "changes": [
