@@ -1,75 +1,265 @@
 {
-  "gameVersion": "0.6.3",
-  "changelog": [
-    {
-      "version": "0.6.0",
-      "changes": [
+  "gameVersion": "0.7.0",
+    "changelog": [
         {
-          "tag": "new character",
-          "title": "Miner",
-          "description": "New characters for the upcoming new stages."
+            "version": "0.7.0",
+            "changes": [
+                {
+                    "tag": "feature",
+                    "title": "Controller support",
+                    "description": "Added support for controllers to enhance gameplay experience."
+                },
+                {
+                    "tag": "feature",
+                    "title": "Localization",
+                    "description": "Expanded language support to include Simplified Chinese, Japanese, Korean, Russian, Spanish, Portuguese, German, and Bahasa Indonesia."
+                },
+                {
+                    "tag": "update",
+                    "title": "Taken upgrade database from pause menu",
+                    "description": "New upgrade database menu functionality to the pause menu for easier access."
+                },
+                {
+                    "tag": "feature",
+                    "title": "Add Stage 2",
+                    "description": "Introduced Stage 2, featuring 4 new Monsters, 4 new Minibosses, and 1 new Boss."
+                },
+                {
+                    "tag": "change",
+                    "title": "Change coin to soul point",
+                    "description": "Converted in-game currency from coins to soul points."
+                },
+                {
+                    "tag": "change",
+                    "title": "Remove impossible achievement, add new achievement related to stage 2",
+                    "description": "Removed unattainable achievements and added new achievements related to Stage 2 content."
+                },
+                {
+                    "tag": "fix",
+                    "title": "Fix Tutorial",
+                    "description": "Rectified issues with the tutorial to ensure smoother player experience."
+                },
+                {
+                    "tag": "balance",
+                    "title": "Reduce Boss collision damage",
+                    "description": "Decreased collision damage inflicted by Bosses from 20 to 5 to balance gameplay."
+                }
+            ]
         },
         {
-          "tag": "feature",
-          "title": "New Special Upgrade",
-          "description": "We added 30+ new special upgrades, and also adjusted old special upgrades."
+            "version": "0.6.3",
+            "changes": [
+                {
+                    "tag": "update",
+                    "title": "Merge Reroll on special upgrade to Opportunist",
+                    "description": "Consolidation of Reroll feature into Opportunist."
+                },
+                {
+                    "tag": "fix",
+                    "title": "Fix Jet Propulsion",
+                    "description": "Rectification of issues with Jet Propulsion ability."
+                },
+                {
+                    "tag": "new special upgrade",
+                    "title": "New special upgrade Vacuum Dodge",
+                    "description": "Introduction of Vacuum Dodge as a new special upgrade."
+                },
+                {
+                    "tag": "balance",
+                    "title": "Buff majority of special upgrades value",
+                    "description": "Increase in value for the majority of special upgrades."
+                },
+                {
+                    "tag": "fix",
+                    "title": "Fix reward bug",
+                    "description": "Resolution of bugs affecting rewards."
+                },
+                {
+                    "tag": "change",
+                    "title": "Change score system (now killing enemy reward you with score)",
+                    "description": "Modification to the scoring system to reward points for defeating enemies."
+                },
+                {
+                    "tag": "fix",
+                    "title": "Fix character lock",
+                    "description": "Correction of character locking issues."
+                },
+                {
+                    "tag": "ui",
+                    "title": "UI revamp",
+                    "description": "Revamping of user interface for improved aesthetics and usability."
+                }
+            ]
         },
         {
-          "tag": "feature",
-          "title": "New Weapon Evo System",
-          "description": "we added a new system where each character's weapon can evolve and make the character stronger with new abilities."
+            "version": "0.6.2",
+            "changes": [
+                {
+                    "tag": "feature",
+                    "title": "Revamp Weapon Evo adding mini ability",
+                    "description": "Overhaul of Weapon Evolution system with addition of mini abilities."
+                },
+                {
+                    "tag": "fix",
+                    "title": "Fix lag issue",
+                    "description": "Resolution of performance lag issue."
+                },
+                {
+                    "tag": "change",
+                    "title": "Change Knockback System",
+                    "description": "Alteration to the knockback system for improved gameplay."
+                },
+                {
+                    "tag": "fix",
+                    "title": "Fix Bug on several upgrades",
+                    "description": "Rectification of bugs affecting multiple upgrades."
+                },
+                {
+                    "tag": "fix",
+                    "title": "Fix unintended upgrades interaction",
+                    "description": "Correction of unintended interactions between upgrades."
+                },
+                {
+                    "tag": "feature",
+                    "title": "Indicator for RPG Buff Upgrade and Miner Crystal",
+                    "description": "Inclusion of indicators for RPG Buff Upgrades and Miner Crystals."
+                },
+                {
+                    "tag": "balance",
+                    "title": "Archer and Miner ability base damage buff",
+                    "description": "Increase in base damage for Archer and Miner abilities."
+                },
+                {
+                    "tag": "feature",
+                    "title": "Add Special Enemy",
+                    "description": "Introduction of a new special enemy type."
+                },
+                {
+                    "tag": "balance",
+                    "title": "Buff few upgrades adding base damage",
+                    "description": "Enhancement to select upgrades by adding base damage."
+                }
+            ]
         },
         {
-          "tag": "feature",
-          "title": "New Rarity and Legendary Chest",
-          "description": "There is now a new upgrade with a mythic level, and it is only obtained from the legendary chest with a small chance of miniboss and boss."
+            "version": "0.6.1",
+            "changes": [
+                {
+                    "tag": "feature",
+                    "title": "Update Status Panel",
+                    "description": "Enhancement to the status panel for better user experience."
+                },
+                {
+                    "tag": "new character",
+                    "title": "Miner (Testing)",
+                    "description": "Introduction of a new character, currently in testing phase."
+                },
+                {
+                    "tag": "fix",
+                    "title": "Fix Setting Menu",
+                    "description": "Rectification of issues in the settings menu."
+                },
+                {
+                    "tag": "balance",
+                    "title": "Buff Enemy Reward",
+                    "description": "Increase in rewards obtained from defeating enemies."
+                },
+                {
+                    "tag": "balance",
+                    "title": "Buff Weapon Evo Chance",
+                    "description": "Enhancement to the chances of weapon evolution."
+                },
+                {
+                    "tag": "balance",
+                    "title": "Buff Knight Stamina Regeneration",
+                    "description": "Improvement in stamina regeneration rate for Knights."
+                },
+                {
+                    "tag": "balance",
+                    "title": "Buff Soldier Base Damage",
+                    "description": "Increase in base damage for Soldiers."
+                },
+                {
+                    "tag": "feature",
+                    "title": "Add Legendary Chest",
+                    "description": "Inclusion of a legendary chest feature with exclusive rewards."
+                },
+                {
+                    "tag": "feature",
+                    "title": "Add Discord Rich Presence",
+                    "description": "Integration of Discord Rich Presence feature."
+                }
+            ]
+        },
+        {
+            "version": "0.6.0",
+            "changes": [
+                {
+                    "tag": "new character",
+                    "title": "Miner",
+                    "description": "New characters for the upcoming new stages."
+                },
+                {
+                    "tag": "feature",
+                    "title": "New Special Upgrade",
+                    "description": "We added 30+ new special upgrades, and also adjusted old special upgrades."
+                },
+                {
+                    "tag": "feature",
+                    "title": "New Weapon Evo System",
+                    "description": "we added a new system where each character's weapon can evolve and make the character stronger with new abilities."
+                },
+                {
+                    "tag": "feature",
+                    "title": "New Rarity and Legendary Chest",
+                    "description": "There is now a new upgrade with a mythic level, and it is only obtained from the legendary chest with a small chance of miniboss and boss."
+                }
+            ]
+        },
+        {
+            "version": "0.5.6",
+            "changes": [
+                {
+                    "tag": "feature",
+                    "title": "Update Notes Menu",
+                    "description": "You can now view our game changes and updates from this menu, and will be notified when a new version is available."
+                },
+                {
+                    "tag": "feature",
+                    "title": "Shop Refund System",
+                    "description": "You can now refund the gold you have spent on the shop."
+                },
+                {
+                    "tag": "bug fix",
+                    "title": "Leaderboard Error",
+                    "description": "We've fixed an error posting highscore data to the leaderboard that caused the abilities from the previous game that were retrieved to be listed when you pressed play again.<br>And we've also fixed the leaderboard reload button, which becomes disabled when you return to the main menu after playing."
+                },
+                {
+                    "tag": "bug fix",
+                    "title": "Saving Data",
+                    "description": "We have improved the game's saving system, which should prevent certain data from being deleted when players upgrade the game to a new version."
+                }
+            ]
+        },
+        {
+            "version": "0.5.5",
+            "changes": [
+                {
+                    "tag": "feature",
+                    "title": "Leaderboard",
+                    "description": "In this version, we try to implement a Leaderboard system.<br>With the leaderboard, everyone can look at what the others are building to achieve a high score."
+                },
+                {
+                    "tag": "feature",
+                    "title": "Nickname System",
+                    "description": "The nickname is used for the highscore leaderboard.<br>Maybe in the future it will be based on the username from Steam."
+                },
+                {
+                    "tag": "bug fix",
+                    "title": "Protobarrier Bug",
+                    "description": "Fixed the issue of the knight's abilities not being able to turn on again when taking unique abilities that reduce max hp capacity."
+                }
+            ]
         }
-      ]
-    },
-    {
-      "version": "0.5.6",
-      "changes": [
-        {
-          "tag": "feature",
-          "title": "Update Notes Menu",
-          "description": "You can now view our game changes and updates from this menu, and will be notified when a new version is available."
-        },
-        {
-          "tag": "feature",
-          "title": "Shop Refund System",
-          "description": "You can now refund the gold you have spent on the shop."
-        },
-        {
-          "tag": "bug fix",
-          "title": "Leaderboard Error",
-          "description": "We've fixed an error posting highscore data to the leaderboard that caused the abilities from the previous game that were retrieved to be listed when you pressed play again.<br>And we've also fixed the leaderboard reload button, which becomes disabled when you return to the main menu after playing."
-        },
-        {
-          "tag": "bug fix",
-          "title": "Saving Data",
-          "description": "We have improved the game's saving system, which should prevent certain data from being deleted when players upgrade the game to a new version."
-        }
-      ]
-    },
-    {
-      "version": "0.5.5",
-      "changes": [
-        {
-          "tag": "feature",
-          "title": "Leaderboard",
-          "description": "In this version, we try to implement a Leaderboard system.<br>With the leaderboard, everyone can look at what the others are building to achieve a high score."
-        },
-        {
-          "tag": "feature",
-          "title": "Nickname System",
-          "description": "The nickname is used for the highscore leaderboard.<br>Maybe in the future it will be based on the username from Steam."
-        },
-        {
-          "tag": "bug fix",
-          "title": "Protobarrier Bug",
-          "description": "Fixed the issue of the knight's abilities not being able to turn on again when taking unique abilities that reduce max hp capacity."
-        }
-      ]
-    }
-  ]
+    ]
 }
