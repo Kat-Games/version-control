@@ -31,7 +31,7 @@
                 },
                 {
                     "tag": "change",
-                    "title": "Remove impossible achievement, add new achievement related to stage 2",
+                    "title": "Remove impossible achievement",
                     "description": "Removed unattainable achievements and added new achievements related to Stage 2 content."
                 },
                 {
@@ -60,7 +60,7 @@
                     "description": "Rectification of issues with Jet Propulsion ability."
                 },
                 {
-                    "tag": "new special upgrade",
+                    "tag": "new upgrade",
                     "title": "New special upgrade Vacuum Dodge",
                     "description": "Introduction of Vacuum Dodge as a new special upgrade."
                 },
@@ -76,7 +76,7 @@
                 },
                 {
                     "tag": "change",
-                    "title": "Change score system (now killing enemy reward you with score)",
+                    "title": "Change score system",
                     "description": "Modification to the scoring system to reward points for defeating enemies."
                 },
                 {
