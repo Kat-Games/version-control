@@ -6,7 +6,7 @@
             "changes": [
                 {
                     "tag": "improvement",
-                    "title": "Improve Saving System supporting Steam Cloud Storage",
+                    "title": "Improve Saving System",
                     "description": "Enhanced saving system to support Steam Cloud Storage."
                 },
                 {
@@ -363,51 +363,6 @@
                     "tag": "feature",
                     "title": "New Rarity and Legendary Chest",
                     "description": "There is now a new upgrade with a mythic level, and it is only obtained from the legendary chest with a small chance of miniboss and boss."
-                }
-            ]
-        },
-        {
-            "version": "0.5.6",
-            "changes": [
-                {
-                    "tag": "feature",
-                    "title": "Update Notes Menu",
-                    "description": "You can now view our game changes and updates from this menu, and will be notified when a new version is available."
-                },
-                {
-                    "tag": "feature",
-                    "title": "Shop Refund System",
-                    "description": "You can now refund the gold you have spent on the shop."
-                },
-                {
-                    "tag": "bug fix",
-                    "title": "Leaderboard Error",
-                    "description": "We've fixed an error posting highscore data to the leaderboard that caused the abilities from the previous game that were retrieved to be listed when you pressed play again.<br>And we've also fixed the leaderboard reload button, which becomes disabled when you return to the main menu after playing."
-                },
-                {
-                    "tag": "bug fix",
-                    "title": "Saving Data",
-                    "description": "We have improved the game's saving system, which should prevent certain data from being deleted when players upgrade the game to a new version."
-                }
-            ]
-        },
-        {
-            "version": "0.5.5",
-            "changes": [
-                {
-                    "tag": "feature",
-                    "title": "Leaderboard",
-                    "description": "In this version, we try to implement a Leaderboard system.<br>With the leaderboard, everyone can look at what the others are building to achieve a high score."
-                },
-                {
-                    "tag": "feature",
-                    "title": "Nickname System",
-                    "description": "The nickname is used for the highscore leaderboard.<br>Maybe in the future it will be based on the username from Steam."
-                },
-                {
-                    "tag": "bug fix",
-                    "title": "Protobarrier Bug",
-                    "description": "Fixed the issue of the knight's abilities not being able to turn on again when taking unique abilities that reduce max hp capacity."
                 }
             ]
         }
