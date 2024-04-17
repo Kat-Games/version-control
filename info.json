@@ -1,6 +1,156 @@
 {
-  "gameVersion": "0.7.0",
+  "gameVersion": "0.7.3",
     "changelog": [
+        {
+            "version": "0.7.3",
+            "changes": [
+                {
+                    "tag": "improvement",
+                    "title": "Improve Saving System supporting Steam Cloud Storage",
+                    "description": "Enhanced saving system to support Steam Cloud Storage."
+                },
+                {
+                    "tag": "feature",
+                    "title": "New Feature: Survival Bonus",
+                    "description": "Introducing Survival Bonus - Soul point reward based on how long you stay alive in-game."
+                },
+                {
+                    "tag": "fix",
+                    "title": "Fix Kill Boss on Hard Achievement",
+                    "description": "Rectified issue with the Kill Boss on Hard Achievement."
+                },
+                {
+                    "tag": "fix",
+                    "title": "Fix some localization formatting error",
+                    "description": "Addressed formatting errors in localization."
+                },
+                {
+                    "tag": "fix",
+                    "title": "Fix Minotaur Roar bug",
+                    "description": "Resolved bug related to Minotaur Roar ability."
+                },
+                {
+                    "tag": "fix",
+                    "title": "Fix Bunny bug",
+                    "description": "Corrected bug associated with the Bunny character."
+                },
+                {
+                    "tag": "fix",
+                    "title": "Fix Knight barrier bug",
+                    "description": "Rectified bug affecting Knight's barrier ability."
+                },
+                {
+                    "tag": "fix",
+                    "title": "Fix wrong calculation on Armored and Lucky Find",
+                    "description": "Corrected miscalculation related to Armored and Lucky Find abilities."
+                },
+                {
+                    "tag": "revamp",
+                    "title": "Revamp Exploding Bullet to Exploding Enhancement",
+                    "description": "Transformed Exploding Bullet into Exploding Enhancement, now applicable to melee characters."
+                },
+                {
+                    "tag": "improvement",
+                    "title": "Improvement to Killer Drone",
+                    "description": "Enhanced Killer Drone functionality to utilize Exploding Enhancement."
+                },
+                {
+                    "tag": "merge",
+                    "title": "Merge Athlete to Survival Fittest",
+                    "description": "Merged Athlete ability into Survival Fittest (Rarity up)."
+                },
+                {
+                    "tag": "buff",
+                    "title": "Buff Adrenaline Rush",
+                    "description": "Increased effectiveness of Adrenaline Rush (Rarity Up)."
+                },
+                {
+                    "tag": "improvement",
+                    "title": "Improve dropped Chest Indicator",
+                    "description": "Enhanced indicator for dropped chests."
+                },
+                {
+                    "tag": "feature",
+                    "title": "Add Archer arrow hit effect",
+                    "description": "Included hit effect for Archer's arrows."
+                },
+                {
+                    "tag": "ui",
+                    "title": "UI Improvement",
+                    "description": "Improved user interface including top HP bar, timer, and boss HP bar."
+                },
+                {
+                    "tag": "improvement",
+                    "title": "Few SFX Improvement",
+                    "description": "Enhanced several sound effects."
+                },
+                {
+                    "tag": "nerf",
+                    "title": "Nerf Soldier late game Weapon Evo",
+                    "description": "Reduced effectiveness of Soldier's late-game weapon evolution."
+                }
+            ]
+        },
+        {
+            "version": "0.7.2",
+            "changes": [
+                {
+                    "tag": "fix",
+                    "title": "Resolved Mother Slime stuck issue",
+                    "description": "Fixed the problem causing the Mother Slime enemy to become stuck."
+                },
+                {
+                    "tag": "fix",
+                    "title": "Fixed Animation and Attack Time discrepancies",
+                    "description": "Addressed discrepancies in animation and attack timing to ensure smoother gameplay."
+                },
+                {
+                    "tag": "fix",
+                    "title": "Corrected Steam and Ingame Achievement Detection",
+                    "description": "Rectified issues with detecting achievements, ensuring proper recognition in both Steam and in-game."
+                },
+                {
+                    "tag": "fix",
+                    "title": "Rectified Enemy Indicator Direction",
+                    "description": "Corrected the direction of the enemy indicator to accurately reflect enemy positions."
+                },
+                {
+                    "tag": "improvement",
+                    "title": "Enhanced Evo Upgrade leaderboard tracking",
+                    "description": "Improved the recording of Evo Upgrades in leaderboards for better tracking and comparison."
+                }
+            ]
+        },
+        {
+            "version": "0.7.1",
+            "changes": [
+                {
+                    "tag": "fix",
+                    "title": "Fixed Game Over Title Issue",
+                    "description": "Resolved the issue where the game over title was incorrectly displayed on easy difficulty."
+                },
+                {
+                    "tag": "fix",
+                    "title": "Resolved Vampire Invulnerability Problem",
+                    "description": "Addressed the issue where vampires were invulnerable."
+                },
+                {
+                    "tag": "fix",
+                    "title": "Fixed Achievement Integration",
+                    "description": "Rectified issues with the integration of in-game achievements and Steam achievements."
+                },
+                {
+                    "tag": "fix",
+                    "title": "Fixed Vampiric Chance Localization",
+                    "description": "Corrected errors in the localization table related to Vampiric Chance."
+                },
+                {
+                    "tag": "improvement",
+                    "title": "Adjusted Merged Soul Points Color",
+                    "description": "Improved the visual presentation by adjusting the color of merged soul points."
+                }
+            ]
+        },
         {
             "version": "0.7.0",
             "changes": [
