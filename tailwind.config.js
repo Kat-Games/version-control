@@ -9,6 +9,10 @@ module.exports = {
     extend: {
       colors: {
         'color-primary': '#240750',
+        'color-primary-5': '#36117F',
+        'color-primary-10': '#4F17BC',
+        'color-secondary': '#FF204E',
+        'color-secondary-5': '#231F20',
       },
       fontFamily: {
         nunito: ['Nunito', 'sans-serif'],
