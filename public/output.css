@@ -1,5 +1,5 @@
 /*
-! tailwindcss v3.4.3 | MIT License | https://tailwindcss.com
+! tailwindcss v3.4.4 | MIT License | https://tailwindcss.com
 *//*
 1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
 2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)
@@ -656,10 +656,6 @@ video {
 .origin-right {
   transform-origin: right;
 }
-.-translate-x-full {
-  --tw-translate-x: -100%;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
 .rotate-12 {
   --tw-rotate: 12deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -982,10 +978,22 @@ video {
 .hiddens {
   opacity: 0;
   transition-property: all;
-  transition-duration: 500ms;
+  transition-duration: 1000ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    filter: blur(5px);
-    transform: translateX(-100%);
+    filter: blur(3px);
+    transform: translateX(-30%);
+}
+
+.hidchild:nth-child(2){
+    transition-delay: 200ms;
+}
+
+.hidchild:nth-child(3){
+    transition-delay: 400ms;
+}
+
+.hidchild:nth-child(4){
+    transition-delay: 600ms;
 }
 
 .show {
@@ -994,17 +1002,22 @@ video {
     transform: translateX(0);
 }
 
+
+
 .slide-out {
-  --tw-translate-x: -100%;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-  opacity: 0;
-  transition-property: all;
-  transition-duration: 500ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+
+.slide-in {
+    transform: translateX(0);
+    opacity: 1;
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
 }
 
 .outline {
-    outline: 2px solid white;
+    outline: 1px solid white;
     transition: outline 0.5s ease-in-out;
 }
 
