@@ -23,13 +23,9 @@
 }
 
 .show {
-    @apply opacity: 1;
+    @apply opacity-100;
     filter: blur(0px);
     transform: translateX(0);
-}
-
-.block { 
-    @apply block; 
 }
 
 .slide-out {
