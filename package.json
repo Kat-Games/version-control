@@ -1,9 +1,9 @@
 {
   "name": "katrgames.github.io",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "postcss.config.js",
   "scripts": {
-    "build": "npx postcss src/css/tailwind.css -o public/output.css",
+    "build": "postcss public/css/tailwind.css -o public/output.css",
     "watch": "npx postcss src/css/tailwind.css -o public/output.css --watch",
     "start": "npx serve public"
   },
