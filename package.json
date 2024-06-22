@@ -3,7 +3,7 @@
   "version": "1.0.1",
   "main": "postcss.config.js",
   "scripts": {
-    "build": "postcss public/css/tailwind.css -o public/output.css",
+    "build": "npx postcss public/css/tailwind.css -o public/output.css",
     "watch": "npx postcss src/css/tailwind.css -o public/output.css --watch",
     "start": "npx serve public"
   },
