@@ -2,8 +2,8 @@
 // tailwind.config.js
 module.exports = {
   content: [
-    './public/*.html', // Ensure the path matches your structure
-    './src/**/*.{js,css}', // Include your src folder if needed
+    './public/**/*.{html,js}', // Ensure the path matches your structure
+    './src/**/*.{html,js,css}', // Include your src folder if needed
   ],
   theme: {
     extend: {
